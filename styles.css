@@ -1,0 +1,9 @@
+.customers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.person {
+  flex-basis: 25%;
+}
