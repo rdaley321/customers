@@ -1,3 +1,8 @@
+body {
+  font-family: sans-serif;
+  padding: 0 5vw;
+}
+
 .customers {
   display: flex;
   flex-direction: row;
@@ -6,4 +11,44 @@
 
 .person {
   flex-basis: 25%;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+}
+
+img {
+  width: 20vw;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 2vw;
+  font-size: .7em;
+}
+
+.name {
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 1px solid green;
+  margin-top: 1vw;
+}
+
+.email {
+  text-transform: uppercase;
+  padding: 1vw 0;
+}
+
+.address {
+  margin-bottom: .2vw;
+}
+
+.phone {
+  margin-bottom: 2vw;
 }
